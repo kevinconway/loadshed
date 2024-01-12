@@ -1,10 +1,10 @@
-module github.com/kevinconway/loadshed
+module github.com/kevinconway/loadshed/v2
 
-go 1.12
+go 1.20
 
 require (
-	github.com/go-ole/go-ole v1.2.4 // indirect
-	github.com/kevinconway/rolling v1.0.0
-	github.com/shirou/gopsutil v0.0.0-20190731134726-d80c43f9c984
-	golang.org/x/sys v0.0.0-20190801041406-cbf593c0f2f3 // indirect
+	github.com/felixge/httpsnoop v1.0.4
+	github.com/kevinconway/rolling/v3 v3.0.0
 )
+
+require golang.org/x/exp v0.0.0-20240110193028-0dcbfd608b1e // indirect
