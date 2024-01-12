@@ -3,7 +3,7 @@ package loadshed
 import (
 	"fmt"
 
-	"github.com/asecurityteam/rolling"
+	"github.com/kevinconway/rolling"
 )
 
 // Rejected is error returned when a request is rejected because of load shedding

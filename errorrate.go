@@ -3,7 +3,7 @@ package loadshed
 import (
 	"fmt"
 
-	"github.com/asecurityteam/rolling"
+	"github.com/kevinconway/rolling"
 )
 
 // errRate is a struct representing the different feeders and aggregators to calculate error rate

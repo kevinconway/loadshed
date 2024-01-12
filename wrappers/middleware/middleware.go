@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/asecurityteam/loadshed"
-	"github.com/asecurityteam/rolling"
+	"github.com/kevinconway/loadshed"
+	"github.com/kevinconway/rolling"
 )
 
 // Option is a wrapper for middleware

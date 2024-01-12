@@ -193,7 +193,7 @@ var transport = loadshedtransport.New(
 
 ### Aggregator
 
-The Aggregator enables injection of custom metrics that are not already included in this package. The option relies on the Aggregator interface provided by github.com/asecurityteam/rolling and the given aggregator must return a value that is a percentage of requests to reject between 0.0 and 1.0.
+The Aggregator enables injection of custom metrics that are not already included in this package. The option relies on the Aggregator interface provided by github.com/kevinconway/rolling and the given aggregator must return a value that is a percentage of requests to reject between 0.0 and 1.0.
 
 ```golang
 // Inject a random amount of chaos when the system is not under load.

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/asecurityteam/loadshed"
-	"github.com/asecurityteam/rolling"
+	"github.com/kevinconway/loadshed"
+	"github.com/kevinconway/rolling"
 )
 
 // Option is a wrapper around the transport modifying its behavior

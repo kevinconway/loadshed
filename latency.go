@@ -3,7 +3,7 @@ package loadshed
 import (
 	"time"
 
-	"github.com/asecurityteam/rolling"
+	"github.com/kevinconway/rolling"
 )
 
 type latencyDecorator struct {

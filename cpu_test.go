@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asecurityteam/rolling"
+	"github.com/kevinconway/rolling"
 )
 
 func TestCPU(t *testing.T) {
